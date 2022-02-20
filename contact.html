@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>contact Me</title>
+    <style>
+        .field{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        <a href="index.html">Back to Portfolio</a>
+    </h3>
+    <h3>
+        Contact me
+    </h3>
+    <form action="contact.php" method="GET">
+        <div class="field">
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <div class="field">
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"> 
+        </div>
+        <div class="field">
+            <label for="textare">Massage</label><br>
+            <textarea name="massageme" id="textare" rows="10"></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+    
+</body>
+</html>
